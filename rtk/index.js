@@ -3,7 +3,7 @@ const { fetchPost } = require("./features/singlePost/singlePostSlice");
 
 // subscribe to state changes
 store.subscribe(() => {
-    console.log(JSON.stringify(store.getState(),null,2));
+    console.log("data",JSON.stringify(store.getState(),null,2));
 });
 
 // disptach actions
